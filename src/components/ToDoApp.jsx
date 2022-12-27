@@ -27,7 +27,6 @@ export default function ToDoApp() {
         <div className="tasksList">
           {list.map((e, i) => {
             if (e) {
-              console.log("loop");
               return (
                 <div className="item">
                   <h3 className="task" contentEditable="true">
